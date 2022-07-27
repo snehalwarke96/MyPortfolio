@@ -135,7 +135,7 @@ h1{
        display: none;
     } */
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
     .skillsPic{
         display: none;
      }
