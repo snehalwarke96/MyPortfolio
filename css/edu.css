@@ -1,0 +1,158 @@
+/* edu */
+
+
+#Education{
+    margin-top: 50px;
+    position:absolute;
+    
+    }
+    
+    
+    .colgDeg{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        background-color: rgb(225,180,229);
+        border: 2px solid rgb(206, 148, 211);
+        padding: 20px;
+        /* margin: 0px 20px; */
+        width: 60vw;
+    }
+    
+    .colgDeg div{
+        margin-left: 30px;
+        
+    }
+    
+    .diplomaDetails {
+        background-color: rgb(241, 235, 235);
+        border: 2px solid rgb(237, 216, 216);
+        padding: 20px 50px;
+        display: block;
+        /* border: 2px solid black; */
+        
+        
+    }
+    .schoolDetails{
+        background-color: rgb(241, 235, 235);
+        border: 2px solid rgb(237, 216, 216);
+        padding: 20px 50px;
+        display: block;
+        /* border: 2px solid black; */
+        
+        
+    }
+    
+    .detNone{
+        display: none;
+    }
+    .colgDetails{
+        background-color: rgb(241, 235, 235);
+        border: 2px solid rgb(237, 216, 216);
+        padding: 20px 50px;
+        display: block;  
+    }
+    
+    
+    .Cdown img{
+        transform: rotate(180deg);
+        
+    }
+    
+    .Cup img{
+        transform: rotate(0deg);
+    }
+    .Dup img{
+        transform: rotate(0deg);
+    }
+    .Sup img{
+        transform: rotate(0deg);
+    }
+    
+    .Sdown img{
+        transform: rotate(180deg);
+       
+    }
+
+    .imgProp{
+        height: 18px;
+        /* filter: invert(); */
+        margin-right: 30px;
+    }
+    
+    .Ddown img{
+   
+        transform: rotate(180deg);
+    }
+
+    .bold{
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+
+    @media screen and (max-width: 900px) {
+    .colgDeg{
+        width: 80vw;
+       
+    }
+}
+
+    @media screen and (max-width: 600px) {
+        .colgDeg{
+            width: 85vw;
+            padding: 10px;
+        }
+    
+        .bold{
+            font-size: 15px;
+            font-weight: 300;
+        }
+        p{
+            font-size: 12px;
+        }
+
+        .imgProp{
+            height: 15px;
+            /* filter: invert(); */
+            margin-right: 10px;
+        }
+
+        .colgDetails, .diplomaDetails, .schoolDetails{
+            padding: 10px 20px;
+        }
+
+        .colgDeg div{
+            margin-left: 10px;
+            
+        }
+    }
+
+     @media screen and (max-width: 400px) {
+        .colgDeg{
+            width: 85vw;
+            padding: 5px;
+        }
+    
+        .bold{
+            font-size: 12px;
+            font-weight: 300;
+        }
+        p{
+            font-size: 8px;
+        }
+
+        .imgProp{
+            height: 10px;
+         /* filter: invert();  */
+            margin-right: 10px;
+        }
+
+        .colgDetails, .diplomaDetails, .schoolDetails{
+            padding: 10px 10px;
+        }
+        .colgDeg div{
+            margin-left: 5px;
+            
+        }
+    } 

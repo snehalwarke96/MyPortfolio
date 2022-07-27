@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script&family=Lato&family=Libre+Baskerville&family=Poppins&family=Roboto:wght@300&family=Signika+Negative&family=Tapestry&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    /* background-color: black; */
+}
+
+.hamBurger{
+    display: none;
+
+}
+
+.relate{
+    /* background-color: pink; */
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.marginLeft{
+    margin-left: 15vw;
+    
+}
+.marginRight{
+    margin-right: 15vw;
+}
+
+.logo img {
+    width: 50px;
+    filter: invert();
+}
+.logo:hover {
+    filter: invert();
+    /* cursor: pointer; */
+}
+
+.showNav
+{
+    height: 80vh;
+    padding-top: 10px;
+    background-color: black;
+}
+
+.navbar {
+
+    background-color: black;
+    height: 80px;
+
+}
+
+
+.flexnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+}
+
+
+
+
+
+
+
+
+.list,.list2 {
+    display: flex;
+    
+}
+
+.list li, .list2 li {
+    list-style: none;
+    margin:0px 30px;
+}
+
+.list li a, .list2 li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+.list li  :hover , .list2 li  :hover{
+    cursor: pointer;
+    color: gray;
+   
+}
+
+#About{
+    
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   padding-bottom: 15px;
+   margin-top: 30px;
+
+   width: 60vw;
+
+ 
+
+ 
+}
+
+.abtPic img{
+    width: 350px;
+    height: 400px;
+    /* border: 2px solid black; */
+   
+}
+
+
+h1{
+    /* position: absolute; */
+    font-size: 55px;
+    font-weight: bold;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: rgb(61, 60, 60);
+}
+
+.abtInfo{
+    font-size: 22px;
+    /* border: 2px solid black; */
+    /* margin: 0px; */
+    color: rgb(73, 73, 73);
+    /* position: absolute; */
+}
+
+.abtPara{
+    font-size: 16px;
+    color: rgb(97, 96, 96); 
+}
+
+.hamA{
+    width: 20px;
+    border-top: 2px solid #f7f3f3 ;
+    padding-bottom:-10px ;
+    transform: rotate(50deg);
+}
+.hamC{
+    width: 20px;
+    border-top: 2px solid #f7f3f3 ;
+    padding-bottom:-15px ;
+    transform: rotate(-50deg);
+}
+
+
+
+
+.cross{
+display: none;
+}
+
+.hamB{
+    width: 40px;
+    border-top: 2px solid white ;
+    padding-bottom:5px ;
+}
+
+
+
+
+@media screen and (max-width: 1300px) {
+    #About{
+        width: 70vw;
+    }
+    
+}
+
+@media screen and (max-width: 1100px) {
+    #About{
+        width: 80vw;
+    }
+    .list, .cross, .hamBurger {
+        display: none;
+        /* background-color: aqua; */
+        
+    }
+    .marginLeft{
+        margin-left: 10vw;
+        
+    }
+    .marginRight{
+        margin-right: 10vw;
+    }
+       
+}
+
+    
+
+@media screen and (max-width: 900px) {
+    #About{
+        width: 90vw;
+    }
+
+    
+    .list , .hide{
+        display: none;
+        /* background-color: aqua; */
+        
+    }
+    .list li {
+        list-style: none;
+        margin:60px 0px;
+        
+       
+    }
+    .show{
+        /* background-color: aqua; */
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .list li a{
+        font-size: 22px;
+       
+    }
+    .hamBurger{
+        display: block;
+        
+    }
+    /* .flexnav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } */
+  
+
+    h1{
+        /* position: absolute; */
+        font-size: 30px;
+        
+    }
+
+    .abtInfo{
+        font-size: 15px;
+    }
+    
+    .abtPara{
+        font-size: 12px;
+    }
+
+    .abtPic img{
+        width: 250px;
+        height: 300px;
+        /* border: 2px solid black; */
+       
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    #About{
+        flex-wrap: wrap;
+        /* align-items: center; */
+        justify-content: center;
+    }
+
+    .abtPic img{
+        width: 200px;
+        height: 250px;
+        /* border: 2px solid black; */
+       
+    }
+    .logo img {
+        width: 35px;
+    
+    }
+    .hamB , .hamA, .hamB{
+        width: 30px;
+       
+    }
+}
+
+
+
