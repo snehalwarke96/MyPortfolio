@@ -14,12 +14,14 @@
     width: 150px;
     margin-right: 20px;
     height: 40px;
-    border: 1px solid  rgb(227, 100, 121);
-    background-color: rgb(227, 100, 121);
+    border: 1px solid  rgb(199, 109, 7);
+    background-color: rgb(251,174,31);
     padding: 3px;
     cursor: pointer;
     transform: all 1s ease in;
-    border-radius: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
 }
 
 .proj1Data{
@@ -35,7 +37,7 @@
 }
 .proj1{
     /* position: absolute; */
-    background-color: rgb(161,234,205);
+    background-color: rgb(178, 238, 234);
     display: flex;
     padding: 5px;
     /* justify-content: space-between; */
@@ -57,7 +59,7 @@ h2 , p , button{
 }
 
 button:hover{
-    background-color:  rgb(237, 157, 171);
+    background-color:  rgb(219, 98, 16);
     transform: scale(1.05); 
 
 }
@@ -113,6 +115,7 @@ h1{
         width: 120px;
         margin-right: 10px;
         height: 33px;
+        font-size: 12px;
         
     }
 }
@@ -133,6 +136,7 @@ p , button{
     width: 100px;
     margin-right: 10px;
     height: 25px;
+    font-size: 10px;
     
 }
 .proj1 img{
@@ -190,6 +194,7 @@ p , button{
     width: 80px;
     /* margin-right: 10px; */
     height: 25px;
+    font-size: 8px;
     
 }
 
